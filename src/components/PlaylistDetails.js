@@ -6,7 +6,7 @@ const PlaylistDetails = ({play, loaded}) => {
     }
     return (
         <>
-            <h3>{play.feed.entry["im:name"].label}</h3>
+            <h3>this {play}</h3>
             <p>Music name: </p>
         </>
     )

@@ -10,7 +10,7 @@ const PlaylistContainer = () => {
     const [loaded, setLoaded] = useState(false);
 
     const getPlay = () => {
-        fetch(`https://itunes.apple.com/gb/rss/topsongs/limit=20/json/${selectedPlayId}`)
+        fetch(`https://itunes.apple.com/gb/rss/topsongs/limit=20/json`)
         .then(res => res.json())
         .then(data => setPlay(data))
         .then(() => setLoaded(true))

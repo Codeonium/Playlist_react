@@ -6,7 +6,7 @@ const PlaylistSelector = ({
 }) => {
     return (
         <>
-        <button 
+        {/* <button 
             onClick={onSelectedPreviousMusic}
         >
             Previous Music
@@ -15,7 +15,7 @@ const PlaylistSelector = ({
             onClick={onSelectedNextMusic}
         >
             Next Music
-        </button>
+        </button> */}
         </>
     )
 }
